@@ -19,7 +19,7 @@ logging.basicConfig(
 logger = logging.getLogger("uvicorn")
 
 # app = FastAPI()
-app = FastAPI(root_path="/api")
+app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
