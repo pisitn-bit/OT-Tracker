@@ -16,3 +16,4 @@ venv/
 ENV/
 .uv/
 .pytest_cache/
+README.md
